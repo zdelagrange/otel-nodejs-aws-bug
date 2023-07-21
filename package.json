@@ -1,0 +1,16 @@
+{
+  "name": "otel-nodejs-aws-bug",
+  "version": "1.0.0",
+  "description": "proving an otel bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zac delagrange",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.37.1",
+    "@opentelemetry/sdk-node": "^0.40.0",
+    "aws-sdk": "^2.1419.0"
+  }
+}
